@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: Lato;
+}
 
 /* banner section styles */
 .banner-section{
@@ -66,7 +68,7 @@ p{
 .flower-title{
     color: #272727;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
     margin-top: 150px;
     margin-bottom: 20px;
@@ -198,6 +200,35 @@ span {
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
-
 }
 
+/* instagram section styles */
+.ig-section{
+    width: auto;
+    text-align: center;
+}
+.ig-container{
+    align-items: center;
+}
+.ig-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.ig-desc{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 20px;
+}
+.ig-images{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 100px;
+}
